@@ -19,5 +19,6 @@ int main()
 {
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int n = sizeof(arr) / sizeof(arr[0]);
-    cout << binarySearch(arr, 0, n - 1, 10);
+    cout << binarySearch(arr, 0, n - 1, 7);
+    return 0;
 }
